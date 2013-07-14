@@ -1,0 +1,496 @@
+auto/stamp-jdb_ktrace.ready: jdb_ktrace.cpp
+auto/jdb_ktrace.cc auto/jdb_ktrace.h auto/jdb_ktrace_i.h: auto/stamp-jdb_ktrace.ready ; @[ -e $@ ] || { $(RM) $<; $(MAKE) $<; }
+auto/stamp-l4_fpage.ready: l4_fpage.cpp
+auto/l4_fpage.cc auto/l4_fpage.h auto/l4_fpage_i.h: auto/stamp-l4_fpage.ready ; @[ -e $@ ] || { $(RM) $<; $(MAKE) $<; }
+auto/stamp-l4_msg_item.ready: l4_msg_item.cpp
+auto/l4_msg_item.cc auto/l4_msg_item.h auto/l4_msg_item_i.h: auto/stamp-l4_msg_item.ready ; @[ -e $@ ] || { $(RM) $<; $(MAKE) $<; }
+auto/stamp-l4_buf_desc.ready: l4_buf_desc.cpp
+auto/l4_buf_desc.cc auto/l4_buf_desc.h auto/l4_buf_desc_i.h: auto/stamp-l4_buf_desc.ready ; @[ -e $@ ] || { $(RM) $<; $(MAKE) $<; }
+auto/stamp-kip.ready: kip.cpp kip-debug.cpp kip-ia32.cpp kip-ia32-debug.cpp
+auto/kip.cc auto/kip-debug.cc auto/kip-ia32.cc auto/kip-ia32-debug.cc auto/kip.h auto/kip_i.h: auto/stamp-kip.ready ; @[ -e $@ ] || { $(RM) $<; $(MAKE) $<; }
+auto/stamp-l4_types.ready: l4_types.cpp l4_types-debug.cpp
+auto/l4_types.cc auto/l4_types-debug.cc auto/l4_types.h auto/l4_types_i.h: auto/stamp-l4_types.ready ; @[ -e $@ ] || { $(RM) $<; $(MAKE) $<; }
+auto/stamp-l4_error.ready: l4_error.cpp
+auto/l4_error.cc auto/l4_error.h auto/l4_error_i.h: auto/stamp-l4_error.ready ; @[ -e $@ ] || { $(RM) $<; $(MAKE) $<; }
+auto/stamp-virt.ready: virt-ia32-amd64.cpp
+auto/virt-ia32-amd64.cc auto/virt.h auto/virt_i.h: auto/stamp-virt.ready ; @[ -e $@ ] || { $(RM) $<; $(MAKE) $<; }
+auto/stamp-mux_console.ready: mux_console.cpp
+auto/mux_console.cc auto/mux_console.h auto/mux_console_i.h: auto/stamp-mux_console.ready ; @[ -e $@ ] || { $(RM) $<; $(MAKE) $<; }
+auto/stamp-console.ready: console.cpp
+auto/console.cc auto/console.h auto/console_i.h: auto/stamp-console.ready ; @[ -e $@ ] || { $(RM) $<; $(MAKE) $<; }
+auto/stamp-keyb.ready: keyb.cpp keyb-pc.cpp
+auto/keyb.cc auto/keyb-pc.cc auto/keyb.h auto/keyb_i.h: auto/stamp-keyb.ready ; @[ -e $@ ] || { $(RM) $<; $(MAKE) $<; }
+auto/stamp-io.ready: io.cpp io-ia32.cpp
+auto/io.cc auto/io-ia32.cc auto/io.h auto/io_i.h: auto/stamp-io.ready ; @[ -e $@ ] || { $(RM) $<; $(MAKE) $<; }
+auto/stamp-pci.ready: pci.cpp
+auto/pci.cc auto/pci.h auto/pci_i.h: auto/stamp-pci.ready ; @[ -e $@ ] || { $(RM) $<; $(MAKE) $<; }
+auto/stamp-vga_console.ready: vga_console.cpp
+auto/vga_console.cc auto/vga_console.h auto/vga_console_i.h: auto/stamp-vga_console.ready ; @[ -e $@ ] || { $(RM) $<; $(MAKE) $<; }
+auto/stamp-reset.ready: reset-ia32.cpp
+auto/reset-ia32.cc auto/reset.h auto/reset_i.h: auto/stamp-reset.ready ; @[ -e $@ ] || { $(RM) $<; $(MAKE) $<; }
+auto/stamp-processor.ready: processor.cpp processor-ia32.cpp
+auto/processor.cc auto/processor-ia32.cc auto/processor.h auto/processor_i.h: auto/stamp-processor.ready ; @[ -e $@ ] || { $(RM) $<; $(MAKE) $<; }
+auto/stamp-delayloop.ready: delayloop.cpp
+auto/delayloop.cc auto/delayloop.h auto/delayloop_i.h: auto/stamp-delayloop.ready ; @[ -e $@ ] || { $(RM) $<; $(MAKE) $<; }
+auto/stamp-mem.ready: mem.cpp mem-ia32.cpp
+auto/mem.cc auto/mem-ia32.cc auto/mem.h auto/mem_i.h: auto/stamp-mem.ready ; @[ -e $@ ] || { $(RM) $<; $(MAKE) $<; }
+auto/stamp-filter_console.ready: filter_console.cpp
+auto/filter_console.cc auto/filter_console.h auto/filter_console_i.h: auto/stamp-filter_console.ready ; @[ -e $@ ] || { $(RM) $<; $(MAKE) $<; }
+auto/stamp-uart.ready: uart.cpp uart-16550.cpp
+auto/uart.cc auto/uart-16550.cc auto/uart.h auto/uart_i.h: auto/stamp-uart.ready ; @[ -e $@ ] || { $(RM) $<; $(MAKE) $<; }
+auto/stamp-cpu_mask.ready: cpu_mask.cpp
+auto/cpu_mask.cc auto/cpu_mask.h auto/cpu_mask_i.h: auto/stamp-cpu_mask.ready ; @[ -e $@ ] || { $(RM) $<; $(MAKE) $<; }
+auto/stamp-rcupdate.ready: rcupdate.cpp
+auto/rcupdate.cc auto/rcupdate.h auto/rcupdate_i.h: auto/stamp-rcupdate.ready ; @[ -e $@ ] || { $(RM) $<; $(MAKE) $<; }
+auto/stamp-kobject_mapdb.ready: kobject_mapdb.cpp
+auto/kobject_mapdb.cc auto/kobject_mapdb.h auto/kobject_mapdb_i.h: auto/stamp-kobject_mapdb.ready ; @[ -e $@ ] || { $(RM) $<; $(MAKE) $<; }
+auto/stamp-context_base.ready: context_base.cpp
+auto/context_base.cc auto/context_base.h auto/context_base_i.h: auto/stamp-context_base.ready ; @[ -e $@ ] || { $(RM) $<; $(MAKE) $<; }
+auto/stamp-mem_region.ready: mem_region.cpp
+auto/mem_region.cc auto/mem_region.h auto/mem_region_i.h: auto/stamp-mem_region.ready ; @[ -e $@ ] || { $(RM) $<; $(MAKE) $<; }
+auto/stamp-per_cpu_data.ready: per_cpu_data.cpp
+auto/per_cpu_data.cc auto/per_cpu_data.h auto/per_cpu_data_i.h: auto/stamp-per_cpu_data.ready ; @[ -e $@ ] || { $(RM) $<; $(MAKE) $<; }
+auto/stamp-startup.ready: startup.cpp startup-ia32.cpp
+auto/startup.cc auto/startup-ia32.cc auto/startup.h auto/startup_i.h: auto/stamp-startup.ready ; @[ -e $@ ] || { $(RM) $<; $(MAKE) $<; }
+auto/stamp-boot_info.ready: boot_info.cpp boot_info-ia32.cpp
+auto/boot_info.cc auto/boot_info-ia32.cc auto/boot_info.h auto/boot_info_i.h: auto/stamp-boot_info.ready ; @[ -e $@ ] || { $(RM) $<; $(MAKE) $<; }
+auto/stamp-queue.ready: queue.cpp
+auto/queue.cc auto/queue.h auto/queue_i.h: auto/stamp-queue.ready ; @[ -e $@ ] || { $(RM) $<; $(MAKE) $<; }
+auto/stamp-queue_item.ready: queue_item.cpp
+auto/queue_item.cc auto/queue_item.h auto/queue_item_i.h: auto/stamp-queue_item.ready ; @[ -e $@ ] || { $(RM) $<; $(MAKE) $<; }
+auto/stamp-l4_buf_iter.ready: l4_buf_iter.cpp
+auto/l4_buf_iter.cc auto/l4_buf_iter.h auto/l4_buf_iter_i.h: auto/stamp-l4_buf_iter.ready ; @[ -e $@ ] || { $(RM) $<; $(MAKE) $<; }
+auto/stamp-bitmap.ready: bitmap.cpp
+auto/bitmap.cc auto/bitmap.h auto/bitmap_i.h: auto/stamp-bitmap.ready ; @[ -e $@ ] || { $(RM) $<; $(MAKE) $<; }
+auto/stamp-mapping.ready: mapping-ia32-32.cpp mapping.cpp
+auto/mapping-ia32-32.cc auto/mapping.cc auto/mapping.h auto/mapping_i.h: auto/stamp-mapping.ready ; @[ -e $@ ] || { $(RM) $<; $(MAKE) $<; }
+auto/stamp-spin_lock.ready: spin_lock.cpp spin_lock-ia32.cpp
+auto/spin_lock.cc auto/spin_lock-ia32.cc auto/spin_lock.h auto/spin_lock_i.h: auto/stamp-spin_lock.ready ; @[ -e $@ ] || { $(RM) $<; $(MAKE) $<; }
+auto/stamp-mapping_tree.ready: mapping_tree.cpp
+auto/mapping_tree.cc auto/mapping_tree.h auto/mapping_tree_i.h: auto/stamp-mapping_tree.ready ; @[ -e $@ ] || { $(RM) $<; $(MAKE) $<; }
+auto/stamp-mappable.ready: mappable.cpp
+auto/mappable.cc auto/mappable.h auto/mappable_i.h: auto/stamp-mappable.ready ; @[ -e $@ ] || { $(RM) $<; $(MAKE) $<; }
+auto/stamp-dbg_page_info.ready: dbg_page_info.cpp
+auto/dbg_page_info.cc auto/dbg_page_info.h auto/dbg_page_info_i.h: auto/stamp-dbg_page_info.ready ; @[ -e $@ ] || { $(RM) $<; $(MAKE) $<; }
+auto/stamp-mapdb.ready: mapdb.cpp
+auto/mapdb.cc auto/mapdb.h auto/mapdb_i.h: auto/stamp-mapdb.ready ; @[ -e $@ ] || { $(RM) $<; $(MAKE) $<; }
+auto/stamp-pic.ready: pic.cpp pic-i8259.cpp
+auto/pic.cc auto/pic-i8259.cc auto/pic.h auto/pic_i.h: auto/stamp-pic.ready ; @[ -e $@ ] || { $(RM) $<; $(MAKE) $<; }
+auto/stamp-kobject_dbg.ready: kobject_dbg.cpp
+auto/kobject_dbg.cc auto/kobject_dbg.h auto/kobject_dbg_i.h: auto/stamp-kobject_dbg.ready ; @[ -e $@ ] || { $(RM) $<; $(MAKE) $<; }
+auto/stamp-koptions.ready: koptions.cpp
+auto/koptions.cc auto/koptions.h auto/koptions_i.h: auto/stamp-koptions.ready ; @[ -e $@ ] || { $(RM) $<; $(MAKE) $<; }
+auto/stamp-kobject_iface.ready: kobject_iface.cpp
+auto/kobject_iface.cc auto/kobject_iface.h auto/kobject_iface_i.h: auto/stamp-kobject_iface.ready ; @[ -e $@ ] || { $(RM) $<; $(MAKE) $<; }
+auto/stamp-kobject.ready: kobject.cpp
+auto/kobject.cc auto/kobject.h auto/kobject_i.h: auto/stamp-kobject.ready ; @[ -e $@ ] || { $(RM) $<; $(MAKE) $<; }
+auto/stamp-ready_queue_wfq.ready: ready_queue_wfq.cpp
+auto/ready_queue_wfq.cc auto/ready_queue_wfq.h auto/ready_queue_wfq_i.h: auto/stamp-ready_queue_wfq.ready ; @[ -e $@ ] || { $(RM) $<; $(MAKE) $<; }
+auto/stamp-obj_space_types.ready: obj_space_types.cpp
+auto/obj_space_types.cc auto/obj_space_types.h auto/obj_space_types_i.h: auto/stamp-obj_space_types.ready ; @[ -e $@ ] || { $(RM) $<; $(MAKE) $<; }
+auto/stamp-obj_space_phys_util.ready: obj_space_phys_util.cpp
+auto/obj_space_phys_util.cc auto/obj_space_phys_util.h auto/obj_space_phys_util_i.h: auto/stamp-obj_space_phys_util.ready ; @[ -e $@ ] || { $(RM) $<; $(MAKE) $<; }
+auto/stamp-ready_queue_fp.ready: ready_queue_fp.cpp
+auto/ready_queue_fp.cc auto/ready_queue_fp.h auto/ready_queue_fp_i.h: auto/stamp-ready_queue_fp.ready ; @[ -e $@ ] || { $(RM) $<; $(MAKE) $<; }
+auto/stamp-obj_space.ready: obj_space.cpp obj_space-virt.cpp
+auto/obj_space.cc auto/obj_space-virt.cc auto/obj_space.h auto/obj_space_i.h: auto/stamp-obj_space.ready ; @[ -e $@ ] || { $(RM) $<; $(MAKE) $<; }
+auto/stamp-ptab_base.ready: ptab_base.cpp
+auto/ptab_base.cc auto/ptab_base.h auto/ptab_base_i.h: auto/stamp-ptab_base.ready ; @[ -e $@ ] || { $(RM) $<; $(MAKE) $<; }
+auto/stamp-ram_quota.ready: ram_quota.cpp
+auto/ram_quota.cc auto/ram_quota.h auto/ram_quota_i.h: auto/stamp-ram_quota.ready ; @[ -e $@ ] || { $(RM) $<; $(MAKE) $<; }
+auto/stamp-ref_ptr.ready: ref_ptr.cpp
+auto/ref_ptr.cc auto/ref_ptr.h auto/ref_ptr_i.h: auto/stamp-ref_ptr.ready ; @[ -e $@ ] || { $(RM) $<; $(MAKE) $<; }
+auto/stamp-ref_obj.ready: ref_obj.cpp
+auto/ref_obj.cc auto/ref_obj.h auto/ref_obj_i.h: auto/stamp-ref_obj.ready ; @[ -e $@ ] || { $(RM) $<; $(MAKE) $<; }
+auto/stamp-mem_space.ready: mem_space.cpp mem_space-user.cpp mem_space-ia32.cpp
+auto/mem_space.cc auto/mem_space-user.cc auto/mem_space-ia32.cc auto/mem_space.h auto/mem_space_i.h: auto/stamp-mem_space.ready ; @[ -e $@ ] || { $(RM) $<; $(MAKE) $<; }
+auto/stamp-space.ready: space.cpp space-ia32.cpp space-io.cpp
+auto/space.cc auto/space-ia32.cc auto/space-io.cc auto/space.h auto/space_i.h: auto/stamp-space.ready ; @[ -e $@ ] || { $(RM) $<; $(MAKE) $<; }
+auto/stamp-vlog.ready: vlog.cpp
+auto/vlog.cc auto/vlog.h auto/vlog_i.h: auto/stamp-vlog.ready ; @[ -e $@ ] || { $(RM) $<; $(MAKE) $<; }
+auto/stamp-kmem.ready: kmem-ia32.cpp kmem-ia32-32.cpp
+auto/kmem-ia32.cc auto/kmem-ia32-32.cc auto/kmem.h auto/kmem_i.h: auto/stamp-kmem.ready ; @[ -e $@ ] || { $(RM) $<; $(MAKE) $<; }
+auto/stamp-kmem_alloc.ready: kmem_alloc.cpp kmem_alloc-ia32.cpp
+auto/kmem_alloc.cc auto/kmem_alloc-ia32.cc auto/kmem_alloc.h auto/kmem_alloc_i.h: auto/stamp-kmem_alloc.ready ; @[ -e $@ ] || { $(RM) $<; $(MAKE) $<; }
+auto/stamp-slab_cache.ready: slab_cache.cpp
+auto/slab_cache.cc auto/slab_cache.h auto/slab_cache_i.h: auto/stamp-slab_cache.ready ; @[ -e $@ ] || { $(RM) $<; $(MAKE) $<; }
+auto/stamp-mem_layout.ready: mem_layout.cpp mem_layout-ia32.cpp mem_layout-ia32-32.cpp
+auto/mem_layout.cc auto/mem_layout-ia32.cc auto/mem_layout-ia32-32.cc auto/mem_layout.h auto/mem_layout_i.h: auto/stamp-mem_layout.ready ; @[ -e $@ ] || { $(RM) $<; $(MAKE) $<; }
+auto/stamp-kmem_slab.ready: kmem_slab.cpp
+auto/kmem_slab.cc auto/kmem_slab.h auto/kmem_slab_i.h: auto/stamp-kmem_slab.ready ; @[ -e $@ ] || { $(RM) $<; $(MAKE) $<; }
+auto/stamp-switch_lock.ready: switch_lock.cpp
+auto/switch_lock.cc auto/switch_lock.h auto/switch_lock_i.h: auto/stamp-switch_lock.ready ; @[ -e $@ ] || { $(RM) $<; $(MAKE) $<; }
+auto/stamp-kip_init.ready: kip_init-ia32.cpp
+auto/kip_init-ia32.cc auto/kip_init.h auto/kip_init_i.h: auto/stamp-kip_init.ready ; @[ -e $@ ] || { $(RM) $<; $(MAKE) $<; }
+auto/stamp-thread_lock.ready: thread_lock.cpp
+auto/thread_lock.cc auto/thread_lock.h auto/thread_lock_i.h: auto/stamp-thread_lock.ready ; @[ -e $@ ] || { $(RM) $<; $(MAKE) $<; }
+auto/stamp-helping_lock.ready: helping_lock.cpp
+auto/helping_lock.cc auto/helping_lock.h auto/helping_lock_i.h: auto/stamp-helping_lock.ready ; @[ -e $@ ] || { $(RM) $<; $(MAKE) $<; }
+auto/stamp-cpu_lock.ready: cpu_lock.cpp cpu_lock-generic.cpp
+auto/cpu_lock.cc auto/cpu_lock-generic.cc auto/cpu_lock.h auto/cpu_lock_i.h: auto/stamp-cpu_lock.ready ; @[ -e $@ ] || { $(RM) $<; $(MAKE) $<; }
+auto/stamp-timer.ready: timer.cpp timer-ia32-amd64-ux.cpp timer-apic.cpp
+auto/timer.cc auto/timer-ia32-amd64-ux.cc auto/timer-apic.cc auto/timer.h auto/timer_i.h: auto/stamp-timer.ready ; @[ -e $@ ] || { $(RM) $<; $(MAKE) $<; }
+auto/stamp-timeout.ready: timeout.cpp
+auto/timeout.cc auto/timeout.h auto/timeout_i.h: auto/stamp-timeout.ready ; @[ -e $@ ] || { $(RM) $<; $(MAKE) $<; }
+auto/stamp-ipc_timeout.ready: ipc_timeout.cpp
+auto/ipc_timeout.cc auto/ipc_timeout.h auto/ipc_timeout_i.h: auto/stamp-ipc_timeout.ready ; @[ -e $@ ] || { $(RM) $<; $(MAKE) $<; }
+auto/stamp-timeslice_timeout.ready: timeslice_timeout.cpp
+auto/timeslice_timeout.cc auto/timeslice_timeout.h auto/timeslice_timeout_i.h: auto/stamp-timeslice_timeout.ready ; @[ -e $@ ] || { $(RM) $<; $(MAKE) $<; }
+auto/stamp-per_cpu_data_alloc.ready: per_cpu_data_alloc.cpp
+auto/per_cpu_data_alloc.cc auto/per_cpu_data_alloc.h auto/per_cpu_data_alloc_i.h: auto/stamp-per_cpu_data_alloc.ready ; @[ -e $@ ] || { $(RM) $<; $(MAKE) $<; }
+auto/stamp-vcpu.ready: vcpu.cpp
+auto/vcpu.cc auto/vcpu.h auto/vcpu_i.h: auto/stamp-vcpu.ready ; @[ -e $@ ] || { $(RM) $<; $(MAKE) $<; }
+auto/stamp-kobject_helper.ready: kobject_helper.cpp
+auto/kobject_helper.cc auto/kobject_helper.h auto/kobject_helper_i.h: auto/stamp-kobject_helper.ready ; @[ -e $@ ] || { $(RM) $<; $(MAKE) $<; }
+auto/stamp-icu_helper.ready: icu_helper.cpp
+auto/icu_helper.cc auto/icu_helper.h auto/icu_helper_i.h: auto/stamp-icu_helper.ready ; @[ -e $@ ] || { $(RM) $<; $(MAKE) $<; }
+auto/stamp-thread_state.ready: thread_state.cpp
+auto/thread_state.cc auto/thread_state.h auto/thread_state_i.h: auto/stamp-thread_state.ready ; @[ -e $@ ] || { $(RM) $<; $(MAKE) $<; }
+auto/stamp-context.ready: context.cpp context-ia32.cpp context-ia32-32.cpp context-vcpu.cpp
+auto/context.cc auto/context-ia32.cc auto/context-ia32-32.cc auto/context-vcpu.cc auto/context.h auto/context_i.h: auto/stamp-context.ready ; @[ -e $@ ] || { $(RM) $<; $(MAKE) $<; }
+auto/stamp-mp_lock.ready: mp_lock.cpp
+auto/mp_lock.cc auto/mp_lock.h auto/mp_lock_i.h: auto/stamp-mp_lock.ready ; @[ -e $@ ] || { $(RM) $<; $(MAKE) $<; }
+auto/stamp-sender.ready: sender.cpp
+auto/sender.cc auto/sender.h auto/sender_i.h: auto/stamp-sender.ready ; @[ -e $@ ] || { $(RM) $<; $(MAKE) $<; }
+auto/stamp-receiver.ready: receiver.cpp
+auto/receiver.cc auto/receiver.h auto/receiver_i.h: auto/stamp-receiver.ready ; @[ -e $@ ] || { $(RM) $<; $(MAKE) $<; }
+auto/stamp-mem_unit.ready: mem_unit-ia32.cpp
+auto/mem_unit-ia32.cc auto/mem_unit.h auto/mem_unit_i.h: auto/stamp-mem_unit.ready ; @[ -e $@ ] || { $(RM) $<; $(MAKE) $<; }
+auto/stamp-factory.ready: factory.cpp
+auto/factory.cc auto/factory.h auto/factory_i.h: auto/stamp-factory.ready ; @[ -e $@ ] || { $(RM) $<; $(MAKE) $<; }
+auto/stamp-lock.ready: lock.cpp
+auto/lock.cc auto/lock.h auto/lock_i.h: auto/stamp-lock.ready ; @[ -e $@ ] || { $(RM) $<; $(MAKE) $<; }
+auto/stamp-ipc_sender.ready: ipc_sender.cpp
+auto/ipc_sender.cc auto/ipc_sender.h auto/ipc_sender_i.h: auto/stamp-ipc_sender.ready ; @[ -e $@ ] || { $(RM) $<; $(MAKE) $<; }
+auto/stamp-thread.ready: thread.cpp thread-ia32.cpp thread-ia32-32.cpp thread-ipc.cpp thread-pagefault.cpp thread-log.cpp thread-debug.cpp thread-dbf.cpp thread-vcpu.cpp thread-io.cpp
+auto/thread.cc auto/thread-ia32.cc auto/thread-ia32-32.cc auto/thread-ipc.cc auto/thread-pagefault.cc auto/thread-log.cc auto/thread-debug.cc auto/thread-dbf.cc auto/thread-vcpu.cc auto/thread-io.cc auto/thread.h auto/thread_i.h: auto/stamp-thread.ready ; @[ -e $@ ] || { $(RM) $<; $(MAKE) $<; }
+auto/stamp-thread_object.ready: thread_object.cpp
+auto/thread_object.cc auto/thread_object.h auto/thread_object_i.h: auto/stamp-thread_object.ready ; @[ -e $@ ] || { $(RM) $<; $(MAKE) $<; }
+auto/stamp-syscalls.ready: syscalls.cpp syscalls-log.cpp
+auto/syscalls.cc auto/syscalls-log.cc auto/syscalls.h auto/syscalls_i.h: auto/stamp-syscalls.ready ; @[ -e $@ ] || { $(RM) $<; $(MAKE) $<; }
+auto/stamp-kernel_thread.ready: kernel_thread.cpp kernel_thread-std.cpp kernel_thread-ia32.cpp
+auto/kernel_thread.cc auto/kernel_thread-std.cc auto/kernel_thread-ia32.cc auto/kernel_thread.h auto/kernel_thread_i.h: auto/stamp-kernel_thread.ready ; @[ -e $@ ] || { $(RM) $<; $(MAKE) $<; }
+auto/stamp-map_util.ready: map_util.cpp map_util-mem.cpp map_util-io.cpp map_util-objs.cpp
+auto/map_util.cc auto/map_util-mem.cc auto/map_util-io.cc auto/map_util-objs.cc auto/map_util.h auto/map_util_i.h: auto/stamp-map_util.ready ; @[ -e $@ ] || { $(RM) $<; $(MAKE) $<; }
+auto/stamp-irq.ready: irq.cpp
+auto/irq.cc auto/irq.h auto/irq_i.h: auto/stamp-irq.ready ; @[ -e $@ ] || { $(RM) $<; $(MAKE) $<; }
+auto/stamp-banner.ready: banner.cpp
+auto/banner.cc auto/banner.h auto/banner_i.h: auto/stamp-banner.ready ; @[ -e $@ ] || { $(RM) $<; $(MAKE) $<; }
+auto/stamp-warn.ready: warn.cpp
+auto/warn.cc auto/warn.h auto/warn_i.h: auto/stamp-warn.ready ; @[ -e $@ ] || { $(RM) $<; $(MAKE) $<; }
+auto/stamp-app_cpu_thread.ready: app_cpu_thread.cpp
+auto/app_cpu_thread.cc auto/app_cpu_thread.h auto/app_cpu_thread_i.h: auto/stamp-app_cpu_thread.ready ; @[ -e $@ ] || { $(RM) $<; $(MAKE) $<; }
+auto/stamp-globals.ready: globals.cpp
+auto/globals.cc auto/globals.h auto/globals_i.h: auto/stamp-globals.ready ; @[ -e $@ ] || { $(RM) $<; $(MAKE) $<; }
+auto/stamp-watchdog.ready: watchdog.cpp watchdog-ia32.cpp
+auto/watchdog.cc auto/watchdog-ia32.cc auto/watchdog.h auto/watchdog_i.h: auto/stamp-watchdog.ready ; @[ -e $@ ] || { $(RM) $<; $(MAKE) $<; }
+auto/stamp-kernel_uart.ready: kernel_uart.cpp kernel_uart-16550.cpp
+auto/kernel_uart.cc auto/kernel_uart-16550.cc auto/kernel_uart.h auto/kernel_uart_i.h: auto/stamp-kernel_uart.ready ; @[ -e $@ ] || { $(RM) $<; $(MAKE) $<; }
+auto/stamp-main.ready: main-ia32-32.cpp main-ia32.cpp
+auto/main-ia32-32.cc auto/main-ia32.cc auto/main.h auto/main_i.h: auto/stamp-main.ready ; @[ -e $@ ] || { $(RM) $<; $(MAKE) $<; }
+auto/stamp-config.ready: config.cpp config-ia32-32.cpp config-ia32.cpp
+auto/config.cc auto/config-ia32-32.cc auto/config-ia32.cc auto/config.h auto/config_i.h: auto/stamp-config.ready ; @[ -e $@ ] || { $(RM) $<; $(MAKE) $<; }
+auto/stamp-vmem_alloc.ready: vmem_alloc.cpp vmem_alloc-ia32.cpp
+auto/vmem_alloc.cc auto/vmem_alloc-ia32.cc auto/vmem_alloc.h auto/vmem_alloc_i.h: auto/stamp-vmem_alloc.ready ; @[ -e $@ ] || { $(RM) $<; $(MAKE) $<; }
+auto/stamp-paging.ready: paging-ia32-32.cpp paging-ia32.cpp paging.cpp
+auto/paging-ia32-32.cc auto/paging-ia32.cc auto/paging.cc auto/paging.h auto/paging_i.h: auto/stamp-paging.ready ; @[ -e $@ ] || { $(RM) $<; $(MAKE) $<; }
+auto/stamp-fpu.ready: fpu.cpp fpu-ia32-ux.cpp fpu-ia32.cpp
+auto/fpu.cc auto/fpu-ia32-ux.cc auto/fpu-ia32.cc auto/fpu.h auto/fpu_i.h: auto/stamp-fpu.ready ; @[ -e $@ ] || { $(RM) $<; $(MAKE) $<; }
+auto/stamp-fpu_state.ready: fpu_state.cpp
+auto/fpu_state.cc auto/fpu_state.h auto/fpu_state_i.h: auto/stamp-fpu_state.ready ; @[ -e $@ ] || { $(RM) $<; $(MAKE) $<; }
+auto/stamp-fpu_alloc.ready: fpu_alloc.cpp
+auto/fpu_alloc.cc auto/fpu_alloc.h auto/fpu_alloc_i.h: auto/stamp-fpu_alloc.ready ; @[ -e $@ ] || { $(RM) $<; $(MAKE) $<; }
+auto/stamp-cpu.ready: cpu.cpp cpu-ia32.cpp cpu-32.cpp
+auto/cpu.cc auto/cpu-ia32.cc auto/cpu-32.cc auto/cpu.h auto/cpu_i.h: auto/stamp-cpu.ready ; @[ -e $@ ] || { $(RM) $<; $(MAKE) $<; }
+auto/stamp-entry_frame.ready: entry_frame.cpp entry_frame-ia32-ux.cpp entry_frame-abs-timeout-hack.cpp
+auto/entry_frame.cc auto/entry_frame-ia32-ux.cc auto/entry_frame-abs-timeout-hack.cc auto/entry_frame.h auto/entry_frame_i.h: auto/stamp-entry_frame.ready ; @[ -e $@ ] || { $(RM) $<; $(MAKE) $<; }
+auto/stamp-kernel_console.ready: kernel_console.cpp
+auto/kernel_console.cc auto/kernel_console.h auto/kernel_console_i.h: auto/stamp-kernel_console.ready ; @[ -e $@ ] || { $(RM) $<; $(MAKE) $<; }
+auto/stamp-ipc_gate.ready: ipc_gate.cpp
+auto/ipc_gate.cc auto/ipc_gate.h auto/ipc_gate_i.h: auto/stamp-ipc_gate.ready ; @[ -e $@ ] || { $(RM) $<; $(MAKE) $<; }
+auto/stamp-task.ready: task.cpp task-ia32-amd64.cpp
+auto/task.cc auto/task-ia32-amd64.cc auto/task.h auto/task_i.h: auto/stamp-task.ready ; @[ -e $@ ] || { $(RM) $<; $(MAKE) $<; }
+auto/stamp-sigma0_task.ready: sigma0_task.cpp sigma0_task-io.cpp
+auto/sigma0_task.cc auto/sigma0_task-io.cc auto/sigma0_task.h auto/sigma0_task_i.h: auto/stamp-sigma0_task.ready ; @[ -e $@ ] || { $(RM) $<; $(MAKE) $<; }
+auto/stamp-kernel_task.ready: kernel_task.cpp
+auto/kernel_task.cc auto/kernel_task.h auto/kernel_task_i.h: auto/stamp-kernel_task.ready ; @[ -e $@ ] || { $(RM) $<; $(MAKE) $<; }
+auto/stamp-platform_control_object.ready: platform_control_object.cpp
+auto/platform_control_object.cc auto/platform_control_object.h auto/platform_control_object_i.h: auto/stamp-platform_control_object.ready ; @[ -e $@ ] || { $(RM) $<; $(MAKE) $<; }
+auto/stamp-irq_controller.ready: irq_controller.cpp
+auto/irq_controller.cc auto/irq_controller.h auto/irq_controller_i.h: auto/stamp-irq_controller.ready ; @[ -e $@ ] || { $(RM) $<; $(MAKE) $<; }
+auto/stamp-irq_chip.ready: irq_chip.cpp
+auto/irq_chip.cc auto/irq_chip.h auto/irq_chip_i.h: auto/stamp-irq_chip.ready ; @[ -e $@ ] || { $(RM) $<; $(MAKE) $<; }
+auto/stamp-irq_mgr.ready: irq_mgr.cpp
+auto/irq_mgr.cc auto/irq_mgr.h auto/irq_mgr_i.h: auto/stamp-irq_mgr.ready ; @[ -e $@ ] || { $(RM) $<; $(MAKE) $<; }
+auto/stamp-terminate.ready: terminate.cpp
+auto/terminate.cc auto/terminate.h auto/terminate_i.h: auto/stamp-terminate.ready ; @[ -e $@ ] || { $(RM) $<; $(MAKE) $<; }
+auto/stamp-continuation.ready: continuation-ia32-32.cpp
+auto/continuation-ia32-32.cc auto/continuation.h auto/continuation_i.h: auto/stamp-continuation.ready ; @[ -e $@ ] || { $(RM) $<; $(MAKE) $<; }
+auto/stamp-timer_tick.ready: timer_tick.cpp timer_tick-apic.cpp
+auto/timer_tick.cc auto/timer_tick-apic.cc auto/timer_tick.h auto/timer_tick_i.h: auto/stamp-timer_tick.ready ; @[ -e $@ ] || { $(RM) $<; $(MAKE) $<; }
+auto/stamp-platform_control.ready: platform_control.cpp
+auto/platform_control.cc auto/platform_control.h auto/platform_control_i.h: auto/stamp-platform_control.ready ; @[ -e $@ ] || { $(RM) $<; $(MAKE) $<; }
+auto/stamp-sched_context.ready: sched_context-wfq.cpp sched_context-fixed_prio.cpp sched_context-fp_wfq.cpp sched_context.cpp
+auto/sched_context-wfq.cc auto/sched_context-fixed_prio.cc auto/sched_context-fp_wfq.cc auto/sched_context.cc auto/sched_context.h auto/sched_context_i.h: auto/stamp-sched_context.ready ; @[ -e $@ ] || { $(RM) $<; $(MAKE) $<; }
+auto/stamp-utcb_init.ready: utcb_init.cpp utcb_init-ia32.cpp
+auto/utcb_init.cc auto/utcb_init-ia32.cc auto/utcb_init.h auto/utcb_init_i.h: auto/stamp-utcb_init.ready ; @[ -e $@ ] || { $(RM) $<; $(MAKE) $<; }
+auto/stamp-perf_cnt.ready: perf_cnt.cpp perf_cnt-ia32.cpp
+auto/perf_cnt.cc auto/perf_cnt-ia32.cc auto/perf_cnt.h auto/perf_cnt_i.h: auto/stamp-perf_cnt.ready ; @[ -e $@ ] || { $(RM) $<; $(MAKE) $<; }
+auto/stamp-trap_state.ready: trap_state.cpp
+auto/trap_state.cc auto/trap_state.h auto/trap_state_i.h: auto/stamp-trap_state.ready ; @[ -e $@ ] || { $(RM) $<; $(MAKE) $<; }
+auto/stamp-buddy_alloc.ready: buddy_alloc.cpp
+auto/buddy_alloc.cc auto/buddy_alloc.h auto/buddy_alloc_i.h: auto/stamp-buddy_alloc.ready ; @[ -e $@ ] || { $(RM) $<; $(MAKE) $<; }
+auto/stamp-vkey.ready: vkey.cpp
+auto/vkey.cc auto/vkey.h auto/vkey_i.h: auto/stamp-vkey.ready ; @[ -e $@ ] || { $(RM) $<; $(MAKE) $<; }
+auto/stamp-kdb_ke.ready: kdb_ke.cpp kdb_ke-ia32.cpp
+auto/kdb_ke.cc auto/kdb_ke-ia32.cc auto/kdb_ke.h auto/kdb_ke_i.h: auto/stamp-kdb_ke.ready ; @[ -e $@ ] || { $(RM) $<; $(MAKE) $<; }
+auto/stamp-prio_list.ready: prio_list.cpp
+auto/prio_list.cc auto/prio_list.h auto/prio_list_i.h: auto/stamp-prio_list.ready ; @[ -e $@ ] || { $(RM) $<; $(MAKE) $<; }
+auto/stamp-ipi.ready: ipi.cpp ipi-ia32.cpp
+auto/ipi.cc auto/ipi-ia32.cc auto/ipi.h auto/ipi_i.h: auto/stamp-ipi.ready ; @[ -e $@ ] || { $(RM) $<; $(MAKE) $<; }
+auto/stamp-scheduler.ready: scheduler.cpp
+auto/scheduler.cc auto/scheduler.h auto/scheduler_i.h: auto/stamp-scheduler.ready ; @[ -e $@ ] || { $(RM) $<; $(MAKE) $<; }
+auto/stamp-clock.ready: clock.cpp clock-ia32.cpp
+auto/clock.cc auto/clock-ia32.cc auto/clock.h auto/clock_i.h: auto/stamp-clock.ready ; @[ -e $@ ] || { $(RM) $<; $(MAKE) $<; }
+auto/stamp-vm_factory.ready: vm_factory.cpp vm_factory-ia32.cpp
+auto/vm_factory.cc auto/vm_factory-ia32.cc auto/vm_factory.h auto/vm_factory_i.h: auto/stamp-vm_factory.ready ; @[ -e $@ ] || { $(RM) $<; $(MAKE) $<; }
+auto/stamp-sys_call_page.ready: sys_call_page.cpp sys_call_page-abs-ia32.cpp
+auto/sys_call_page.cc auto/sys_call_page-abs-ia32.cc auto/sys_call_page.h auto/sys_call_page_i.h: auto/stamp-sys_call_page.ready ; @[ -e $@ ] || { $(RM) $<; $(MAKE) $<; }
+auto/stamp-boot_alloc.ready: boot_alloc.cpp
+auto/boot_alloc.cc auto/boot_alloc.h auto/boot_alloc_i.h: auto/stamp-boot_alloc.ready ; @[ -e $@ ] || { $(RM) $<; $(MAKE) $<; }
+auto/stamp-__main.ready: __main.cpp
+auto/__main.cc auto/__main.h auto/__main_i.h: auto/stamp-__main.ready ; @[ -e $@ ] || { $(RM) $<; $(MAKE) $<; }
+auto/stamp-acpi.ready: acpi.cpp
+auto/acpi.cc auto/acpi.h auto/acpi_i.h: auto/stamp-acpi.ready ; @[ -e $@ ] || { $(RM) $<; $(MAKE) $<; }
+auto/stamp-irq_chip_ia32.ready: irq_chip_ia32.cpp
+auto/irq_chip_ia32.cc auto/irq_chip_ia32.h auto/irq_chip_ia32_i.h: auto/stamp-irq_chip_ia32.ready ; @[ -e $@ ] || { $(RM) $<; $(MAKE) $<; }
+auto/stamp-irq_chip_pic.ready: irq_chip_pic.cpp
+auto/irq_chip_pic.cc auto/irq_chip_pic.h auto/irq_chip_pic_i.h: auto/stamp-irq_chip_pic.ready ; @[ -e $@ ] || { $(RM) $<; $(MAKE) $<; }
+auto/stamp-io_apic.ready: io_apic.cpp
+auto/io_apic.cc auto/io_apic.h auto/io_apic_i.h: auto/stamp-io_apic.ready ; @[ -e $@ ] || { $(RM) $<; $(MAKE) $<; }
+auto/stamp-irq_msi.ready: irq_msi.cpp
+auto/irq_msi.cc auto/irq_msi.h auto/irq_msi_i.h: auto/stamp-irq_msi.ready ; @[ -e $@ ] || { $(RM) $<; $(MAKE) $<; }
+auto/stamp-boot_console.ready: boot_console-ia32-amd64.cpp
+auto/boot_console-ia32-amd64.cc auto/boot_console.h auto/boot_console_i.h: auto/stamp-boot_console.ready ; @[ -e $@ ] || { $(RM) $<; $(MAKE) $<; }
+auto/stamp-io_space.ready: io_space.cpp
+auto/io_space.cc auto/io_space.h auto/io_space_i.h: auto/stamp-io_space.ready ; @[ -e $@ ] || { $(RM) $<; $(MAKE) $<; }
+auto/stamp-apic.ready: apic-ia32.cpp apic-ia32-mp.cpp apic-debug.cpp
+auto/apic-ia32.cc auto/apic-ia32-mp.cc auto/apic-debug.cc auto/apic.h auto/apic_i.h: auto/stamp-apic.ready ; @[ -e $@ ] || { $(RM) $<; $(MAKE) $<; }
+auto/stamp-pit.ready: pit-i8254.cpp
+auto/pit-i8254.cc auto/pit.h auto/pit_i.h: auto/stamp-pit.ready ; @[ -e $@ ] || { $(RM) $<; $(MAKE) $<; }
+auto/stamp-checksum.ready: checksum.cpp
+auto/checksum.cc auto/checksum.h auto/checksum_i.h: auto/stamp-checksum.ready ; @[ -e $@ ] || { $(RM) $<; $(MAKE) $<; }
+auto/stamp-x86desc.ready: x86desc.cpp
+auto/x86desc.cc auto/x86desc.h auto/x86desc_i.h: auto/stamp-x86desc.ready ; @[ -e $@ ] || { $(RM) $<; $(MAKE) $<; }
+auto/stamp-gdt.ready: gdt.cpp
+auto/gdt.cc auto/gdt.h auto/gdt_i.h: auto/stamp-gdt.ready ; @[ -e $@ ] || { $(RM) $<; $(MAKE) $<; }
+auto/stamp-idt.ready: idt.cpp
+auto/idt.cc auto/idt.h auto/idt_i.h: auto/stamp-idt.ready ; @[ -e $@ ] || { $(RM) $<; $(MAKE) $<; }
+auto/stamp-tss.ready: tss.cpp
+auto/tss.cc auto/tss.h auto/tss_i.h: auto/stamp-tss.ready ; @[ -e $@ ] || { $(RM) $<; $(MAKE) $<; }
+auto/stamp-timer_irq.ready: timer_irq.cpp
+auto/timer_irq.cc auto/timer_irq.h auto/timer_irq_i.h: auto/stamp-timer_irq.ready ; @[ -e $@ ] || { $(RM) $<; $(MAKE) $<; }
+auto/stamp-dirq.ready: dirq-ia32-ux.cpp
+auto/dirq-ia32-ux.cc auto/dirq.h auto/dirq_i.h: auto/stamp-dirq.ready ; @[ -e $@ ] || { $(RM) $<; $(MAKE) $<; }
+auto/stamp-jdb_tbuf.ready: jdb_tbuf.cpp
+auto/jdb_tbuf.cc auto/jdb_tbuf.h auto/jdb_tbuf_i.h: auto/stamp-jdb_tbuf.ready ; @[ -e $@ ] || { $(RM) $<; $(MAKE) $<; }
+auto/stamp-jdb_tbuf_init.ready: jdb_tbuf_init.cpp
+auto/jdb_tbuf_init.cc auto/jdb_tbuf_init.h auto/jdb_tbuf_init_i.h: auto/stamp-jdb_tbuf_init.ready ; @[ -e $@ ] || { $(RM) $<; $(MAKE) $<; }
+auto/stamp-jdb_trace.ready: jdb_trace.cpp
+auto/jdb_trace.cc auto/jdb_trace.h auto/jdb_trace_i.h: auto/stamp-jdb_trace.ready ; @[ -e $@ ] || { $(RM) $<; $(MAKE) $<; }
+auto/stamp-tb_entry.ready: tb_entry.cpp tb_entry-ia32-32.cpp
+auto/tb_entry.cc auto/tb_entry-ia32-32.cc auto/tb_entry.h auto/tb_entry_i.h: auto/stamp-tb_entry.ready ; @[ -e $@ ] || { $(RM) $<; $(MAKE) $<; }
+auto/stamp-jdb_gzip.ready: jdb_gzip.cpp
+auto/jdb_gzip.cc auto/jdb_gzip.h auto/jdb_gzip_i.h: auto/stamp-jdb_gzip.ready ; @[ -e $@ ] || { $(RM) $<; $(MAKE) $<; }
+auto/stamp-obj_space_virt_util.ready: obj_space_virt_util.cpp
+auto/obj_space_virt_util.cc auto/obj_space_virt_util.h auto/obj_space_virt_util_i.h: auto/stamp-obj_space_virt_util.ready ; @[ -e $@ ] || { $(RM) $<; $(MAKE) $<; }
+auto/stamp-uart_console.ready: uart_console.cpp
+auto/uart_console.cc auto/uart_console.h auto/uart_console_i.h: auto/stamp-uart_console.ready ; @[ -e $@ ] || { $(RM) $<; $(MAKE) $<; }
+auto/stamp-atomic.ready: atomic.cpp
+auto/atomic.cc auto/atomic.h auto/atomic_i.h: auto/stamp-atomic.ready ; @[ -e $@ ] || { $(RM) $<; $(MAKE) $<; }
+auto/stamp-lock_guard.ready: lock_guard.cpp
+auto/lock_guard.cc auto/lock_guard.h auto/lock_guard_i.h: auto/stamp-lock_guard.ready ; @[ -e $@ ] || { $(RM) $<; $(MAKE) $<; }
+auto/stamp-auto_ptr.ready: auto_ptr.cpp
+auto/auto_ptr.cc auto/auto_ptr.h auto/auto_ptr_i.h: auto/stamp-auto_ptr.ready ; @[ -e $@ ] || { $(RM) $<; $(MAKE) $<; }
+auto/stamp-std_macros.ready: std_macros.cpp
+auto/std_macros.cc auto/std_macros.h auto/std_macros_i.h: auto/stamp-std_macros.ready ; @[ -e $@ ] || { $(RM) $<; $(MAKE) $<; }
+auto/stamp-paranoia.ready: paranoia.cpp
+auto/paranoia.cc auto/paranoia.h auto/paranoia_i.h: auto/stamp-paranoia.ready ; @[ -e $@ ] || { $(RM) $<; $(MAKE) $<; }
+auto/stamp-s_cruft.ready: s_cruft.cpp
+auto/s_cruft.cc auto/s_cruft.h auto/s_cruft_i.h: auto/stamp-s_cruft.ready ; @[ -e $@ ] || { $(RM) $<; $(MAKE) $<; }
+auto/stamp-jdb.ready: jdb.cpp jdb-ia32-amd64.cpp jdb-ansi.cpp jdb-ia32-ux.cpp jdb-thread.cpp jdb-int3-ia32-amd64.cpp jdb-int3-ia32-ux.cpp
+auto/jdb.cc auto/jdb-ia32-amd64.cc auto/jdb-ansi.cc auto/jdb-ia32-ux.cc auto/jdb-thread.cc auto/jdb-int3-ia32-amd64.cc auto/jdb-int3-ia32-ux.cc auto/jdb.h auto/jdb_i.h: auto/stamp-jdb.ready ; @[ -e $@ ] || { $(RM) $<; $(MAKE) $<; }
+auto/stamp-jdb_util.ready: jdb_util.cpp
+auto/jdb_util.cc auto/jdb_util.h auto/jdb_util_i.h: auto/stamp-jdb_util.ready ; @[ -e $@ ] || { $(RM) $<; $(MAKE) $<; }
+auto/stamp-jdb_prompt_ext.ready: jdb_prompt_ext.cpp
+auto/jdb_prompt_ext.cc auto/jdb_prompt_ext.h auto/jdb_prompt_ext_i.h: auto/stamp-jdb_prompt_ext.ready ; @[ -e $@ ] || { $(RM) $<; $(MAKE) $<; }
+auto/stamp-jdb_symbol.ready: jdb_symbol.cpp
+auto/jdb_symbol.cc auto/jdb_symbol.h auto/jdb_symbol_i.h: auto/stamp-jdb_symbol.ready ; @[ -e $@ ] || { $(RM) $<; $(MAKE) $<; }
+auto/stamp-jdb_lines.ready: jdb_lines.cpp
+auto/jdb_lines.cc auto/jdb_lines.h auto/jdb_lines_i.h: auto/stamp-jdb_lines.ready ; @[ -e $@ ] || { $(RM) $<; $(MAKE) $<; }
+auto/stamp-jdb_dbinfo.ready: jdb_dbinfo.cpp
+auto/jdb_dbinfo.cc auto/jdb_dbinfo.h auto/jdb_dbinfo_i.h: auto/stamp-jdb_dbinfo.ready ; @[ -e $@ ] || { $(RM) $<; $(MAKE) $<; }
+auto/stamp-jdb_bp.ready: jdb_bp-ia32-ux.cpp jdb_bp-ia32-amd64.cpp jdb_bp-ia32.cpp
+auto/jdb_bp-ia32-ux.cc auto/jdb_bp-ia32-amd64.cc auto/jdb_bp-ia32.cc auto/jdb_bp.h auto/jdb_bp_i.h: auto/stamp-jdb_bp.ready ; @[ -e $@ ] || { $(RM) $<; $(MAKE) $<; }
+auto/stamp-jdb_module.ready: jdb_module.cpp
+auto/jdb_module.cc auto/jdb_module.h auto/jdb_module_i.h: auto/stamp-jdb_module.ready ; @[ -e $@ ] || { $(RM) $<; $(MAKE) $<; }
+auto/stamp-jdb_core.ready: jdb_core.cpp
+auto/jdb_core.cc auto/jdb_core.h auto/jdb_core_i.h: auto/stamp-jdb_core.ready ; @[ -e $@ ] || { $(RM) $<; $(MAKE) $<; }
+auto/stamp-jdb_io_ports.ready: jdb_io_ports.cpp
+auto/jdb_io_ports.cc auto/jdb_io_ports.h auto/jdb_io_ports_i.h: auto/stamp-jdb_io_ports.ready ; @[ -e $@ ] || { $(RM) $<; $(MAKE) $<; }
+auto/stamp-jdb_kern_info.ready: jdb_kern_info.cpp jdb_kern_info-ia32-amd64.cpp jdb_kern_info-ia32-ux.cpp jdb_kern_info-apic.cpp jdb_kern_info-pci.cpp jdb_kern_info-bench.cpp jdb_kern_info-bench-ia32-32.cpp jdb_kern_info-dr.cpp jdb_kern_info-mtrr.cpp
+auto/jdb_kern_info.cc auto/jdb_kern_info-ia32-amd64.cc auto/jdb_kern_info-ia32-ux.cc auto/jdb_kern_info-apic.cc auto/jdb_kern_info-pci.cc auto/jdb_kern_info-bench.cc auto/jdb_kern_info-bench-ia32-32.cc auto/jdb_kern_info-dr.cc auto/jdb_kern_info-mtrr.cc auto/jdb_kern_info.h auto/jdb_kern_info_i.h: auto/stamp-jdb_kern_info.ready ; @[ -e $@ ] || { $(RM) $<; $(MAKE) $<; }
+auto/stamp-jdb_prompt_module.ready: jdb_prompt_module.cpp
+auto/jdb_prompt_module.cc auto/jdb_prompt_module.h auto/jdb_prompt_module_i.h: auto/stamp-jdb_prompt_module.ready ; @[ -e $@ ] || { $(RM) $<; $(MAKE) $<; }
+auto/stamp-jdb_tbuf_output.ready: jdb_tbuf_output.cpp
+auto/jdb_tbuf_output.cc auto/jdb_tbuf_output.h auto/jdb_tbuf_output_i.h: auto/stamp-jdb_tbuf_output.ready ; @[ -e $@ ] || { $(RM) $<; $(MAKE) $<; }
+auto/stamp-jdb_input.ready: jdb_input.cpp
+auto/jdb_input.cc auto/jdb_input.h auto/jdb_input_i.h: auto/stamp-jdb_input.ready ; @[ -e $@ ] || { $(RM) $<; $(MAKE) $<; }
+auto/stamp-jdb_dump.ready: jdb_dump.cpp
+auto/jdb_dump.cc auto/jdb_dump.h auto/jdb_dump_i.h: auto/stamp-jdb_dump.ready ; @[ -e $@ ] || { $(RM) $<; $(MAKE) $<; }
+auto/stamp-jdb_ptab.ready: jdb_ptab.cpp jdb_ptab-ia32-ux-arm.cpp
+auto/jdb_ptab.cc auto/jdb_ptab-ia32-ux-arm.cc auto/jdb_ptab.h auto/jdb_ptab_i.h: auto/stamp-jdb_ptab.ready ; @[ -e $@ ] || { $(RM) $<; $(MAKE) $<; }
+auto/stamp-jdb_misc.ready: jdb_misc-ia32-amd64.cpp
+auto/jdb_misc-ia32-amd64.cc auto/jdb_misc.h auto/jdb_misc_i.h: auto/stamp-jdb_misc.ready ; @[ -e $@ ] || { $(RM) $<; $(MAKE) $<; }
+auto/stamp-jdb_mapdb.ready: jdb_mapdb.cpp
+auto/jdb_mapdb.cc auto/jdb_mapdb.h auto/jdb_mapdb_i.h: auto/stamp-jdb_mapdb.ready ; @[ -e $@ ] || { $(RM) $<; $(MAKE) $<; }
+auto/stamp-jdb_tcb.ready: jdb_tcb.cpp jdb_tcb-ia32-ux.cpp
+auto/jdb_tcb.cc auto/jdb_tcb-ia32-ux.cc auto/jdb_tcb.h auto/jdb_tcb_i.h: auto/stamp-jdb_tcb.ready ; @[ -e $@ ] || { $(RM) $<; $(MAKE) $<; }
+auto/stamp-jdb_attach_irq.ready: jdb_attach_irq.cpp
+auto/jdb_attach_irq.cc auto/jdb_attach_irq.h auto/jdb_attach_irq_i.h: auto/stamp-jdb_attach_irq.ready ; @[ -e $@ ] || { $(RM) $<; $(MAKE) $<; }
+auto/stamp-jdb_trace_set.ready: jdb_trace_set.cpp jdb_trace_set-ia32-ux.cpp
+auto/jdb_trace_set.cc auto/jdb_trace_set-ia32-ux.cc auto/jdb_trace_set.h auto/jdb_trace_set_i.h: auto/stamp-jdb_trace_set.ready ; @[ -e $@ ] || { $(RM) $<; $(MAKE) $<; }
+auto/stamp-jdb_counters.ready: jdb_counters.cpp
+auto/jdb_counters.cc auto/jdb_counters.h auto/jdb_counters_i.h: auto/stamp-jdb_counters.ready ; @[ -e $@ ] || { $(RM) $<; $(MAKE) $<; }
+auto/stamp-jdb_table.ready: jdb_table.cpp
+auto/jdb_table.cc auto/jdb_table.h auto/jdb_table_i.h: auto/stamp-jdb_table.ready ; @[ -e $@ ] || { $(RM) $<; $(MAKE) $<; }
+auto/stamp-kern_cnt.ready: kern_cnt.cpp
+auto/kern_cnt.cc auto/kern_cnt.h auto/kern_cnt_i.h: auto/stamp-kern_cnt.ready ; @[ -e $@ ] || { $(RM) $<; $(MAKE) $<; }
+auto/stamp-jdb_exit_module.ready: jdb_exit_module.cpp
+auto/jdb_exit_module.cc auto/jdb_exit_module.h auto/jdb_exit_module_i.h: auto/stamp-jdb_exit_module.ready ; @[ -e $@ ] || { $(RM) $<; $(MAKE) $<; }
+auto/stamp-jdb_tbuf_show.ready: jdb_tbuf_show.cpp
+auto/jdb_tbuf_show.cc auto/jdb_tbuf_show.h auto/jdb_tbuf_show_i.h: auto/stamp-jdb_tbuf_show.ready ; @[ -e $@ ] || { $(RM) $<; $(MAKE) $<; }
+auto/stamp-jdb_console_buffer.ready: jdb_console_buffer.cpp
+auto/jdb_console_buffer.cc auto/jdb_console_buffer.h auto/jdb_console_buffer_i.h: auto/stamp-jdb_console_buffer.ready ; @[ -e $@ ] || { $(RM) $<; $(MAKE) $<; }
+auto/stamp-jdb_list.ready: jdb_list.cpp
+auto/jdb_list.cc auto/jdb_list.h auto/jdb_list_i.h: auto/stamp-jdb_list.ready ; @[ -e $@ ] || { $(RM) $<; $(MAKE) $<; }
+auto/stamp-jdb_screen.ready: jdb_screen.cpp jdb_screen-ia32.cpp
+auto/jdb_screen.cc auto/jdb_screen-ia32.cc auto/jdb_screen.h auto/jdb_screen_i.h: auto/stamp-jdb_screen.ready ; @[ -e $@ ] || { $(RM) $<; $(MAKE) $<; }
+auto/stamp-push_console.ready: push_console.cpp
+auto/push_console.cc auto/push_console.h auto/push_console_i.h: auto/stamp-push_console.ready ; @[ -e $@ ] || { $(RM) $<; $(MAKE) $<; }
+auto/stamp-jdb_timeout.ready: jdb_timeout.cpp
+auto/jdb_timeout.cc auto/jdb_timeout.h auto/jdb_timeout_i.h: auto/stamp-jdb_timeout.ready ; @[ -e $@ ] || { $(RM) $<; $(MAKE) $<; }
+auto/stamp-jdb_handler_queue.ready: jdb_handler_queue.cpp
+auto/jdb_handler_queue.cc auto/jdb_handler_queue.h auto/jdb_handler_queue_i.h: auto/stamp-jdb_handler_queue.ready ; @[ -e $@ ] || { $(RM) $<; $(MAKE) $<; }
+auto/stamp-jdb_halt_thread.ready: jdb_halt_thread.cpp
+auto/jdb_halt_thread.cc auto/jdb_halt_thread.h auto/jdb_halt_thread_i.h: auto/stamp-jdb_halt_thread.ready ; @[ -e $@ ] || { $(RM) $<; $(MAKE) $<; }
+auto/stamp-jdb_kern_info_kmem_alloc.ready: jdb_kern_info_kmem_alloc.cpp
+auto/jdb_kern_info_kmem_alloc.cc auto/jdb_kern_info_kmem_alloc.h auto/jdb_kern_info_kmem_alloc_i.h: auto/stamp-jdb_kern_info_kmem_alloc.ready ; @[ -e $@ ] || { $(RM) $<; $(MAKE) $<; }
+auto/stamp-jdb_kern_info_kip.ready: jdb_kern_info_kip.cpp
+auto/jdb_kern_info_kip.cc auto/jdb_kern_info_kip.h auto/jdb_kern_info_kip_i.h: auto/stamp-jdb_kern_info_kip.ready ; @[ -e $@ ] || { $(RM) $<; $(MAKE) $<; }
+auto/stamp-jdb_kern_info_config.ready: jdb_kern_info_config.cpp
+auto/jdb_kern_info_config.cc auto/jdb_kern_info_config.h auto/jdb_kern_info_config_i.h: auto/stamp-jdb_kern_info_config.ready ; @[ -e $@ ] || { $(RM) $<; $(MAKE) $<; }
+auto/stamp-loadcnt.ready: loadcnt.cpp
+auto/loadcnt.cc auto/loadcnt.h auto/loadcnt_i.h: auto/stamp-loadcnt.ready ; @[ -e $@ ] || { $(RM) $<; $(MAKE) $<; }
+auto/stamp-jdb_utcb.ready: jdb_utcb.cpp
+auto/jdb_utcb.cc auto/jdb_utcb.h auto/jdb_utcb_i.h: auto/stamp-jdb_utcb.ready ; @[ -e $@ ] || { $(RM) $<; $(MAKE) $<; }
+auto/stamp-jdb_thread_list.ready: jdb_thread_list.cpp
+auto/jdb_thread_list.cc auto/jdb_thread_list.h auto/jdb_thread_list_i.h: auto/stamp-jdb_thread_list.ready ; @[ -e $@ ] || { $(RM) $<; $(MAKE) $<; }
+auto/stamp-jdb_entry_frame.ready: jdb_entry_frame-ia32.cpp
+auto/jdb_entry_frame-ia32.cc auto/jdb_entry_frame.h auto/jdb_entry_frame_i.h: auto/stamp-jdb_entry_frame.ready ; @[ -e $@ ] || { $(RM) $<; $(MAKE) $<; }
+auto/stamp-jdb_kobject.ready: jdb_kobject.cpp
+auto/jdb_kobject.cc auto/jdb_kobject.h auto/jdb_kobject_i.h: auto/stamp-jdb_kobject.ready ; @[ -e $@ ] || { $(RM) $<; $(MAKE) $<; }
+auto/stamp-jdb_space.ready: jdb_space.cpp
+auto/jdb_space.cc auto/jdb_space.h auto/jdb_space_i.h: auto/stamp-jdb_space.ready ; @[ -e $@ ] || { $(RM) $<; $(MAKE) $<; }
+auto/stamp-jdb_io_apic.ready: jdb_io_apic.cpp
+auto/jdb_io_apic.cc auto/jdb_io_apic.h auto/jdb_io_apic_i.h: auto/stamp-jdb_io_apic.ready ; @[ -e $@ ] || { $(RM) $<; $(MAKE) $<; }
+auto/stamp-jdb_trap_state.ready: jdb_trap_state.cpp
+auto/jdb_trap_state.cc auto/jdb_trap_state.h auto/jdb_trap_state_i.h: auto/stamp-jdb_trap_state.ready ; @[ -e $@ ] || { $(RM) $<; $(MAKE) $<; }
+auto/stamp-jdb_ipi.ready: jdb_ipi.cpp
+auto/jdb_ipi.cc auto/jdb_ipi.h auto/jdb_ipi_i.h: auto/stamp-jdb_ipi.ready ; @[ -e $@ ] || { $(RM) $<; $(MAKE) $<; }
+auto/stamp-jdb_kobject_names.ready: jdb_kobject_names.cpp
+auto/jdb_kobject_names.cc auto/jdb_kobject_names.h auto/jdb_kobject_names_i.h: auto/stamp-jdb_kobject_names.ready ; @[ -e $@ ] || { $(RM) $<; $(MAKE) $<; }
+auto/stamp-jdb_rcupdate.ready: jdb_rcupdate.cpp
+auto/jdb_rcupdate.cc auto/jdb_rcupdate.h auto/jdb_rcupdate_i.h: auto/stamp-jdb_rcupdate.ready ; @[ -e $@ ] || { $(RM) $<; $(MAKE) $<; }
+auto/stamp-jdb_bt.ready: jdb_bt-ia32-ux.cpp
+auto/jdb_bt-ia32-ux.cc auto/jdb_bt.h auto/jdb_bt_i.h: auto/stamp-jdb_bt.ready ; @[ -e $@ ] || { $(RM) $<; $(MAKE) $<; }
+auto/stamp-jdb_ipc_gate.ready: jdb_ipc_gate.cpp
+auto/jdb_ipc_gate.cc auto/jdb_ipc_gate.h auto/jdb_ipc_gate_i.h: auto/stamp-jdb_ipc_gate.ready ; @[ -e $@ ] || { $(RM) $<; $(MAKE) $<; }
+auto/stamp-jdb_obj_space.ready: jdb_obj_space.cpp
+auto/jdb_obj_space.cc auto/jdb_obj_space.h auto/jdb_obj_space_i.h: auto/stamp-jdb_obj_space.ready ; @[ -e $@ ] || { $(RM) $<; $(MAKE) $<; }
+auto/stamp-jdb_log.ready: jdb_log.cpp
+auto/jdb_log.cc auto/jdb_log.h auto/jdb_log_i.h: auto/stamp-jdb_log.ready ; @[ -e $@ ] || { $(RM) $<; $(MAKE) $<; }
+auto/stamp-jdb_factory.ready: jdb_factory.cpp
+auto/jdb_factory.cc auto/jdb_factory.h auto/jdb_factory_i.h: auto/stamp-jdb_factory.ready ; @[ -e $@ ] || { $(RM) $<; $(MAKE) $<; }
+auto/stamp-jdb_iomap.ready: jdb_iomap.cpp
+auto/jdb_iomap.cc auto/jdb_iomap.h auto/jdb_iomap_i.h: auto/stamp-jdb_iomap.ready ; @[ -e $@ ] || { $(RM) $<; $(MAKE) $<; }
+auto/stamp-jdb_thread.ready: jdb_thread.cpp
+auto/jdb_thread.cc auto/jdb_thread.h auto/jdb_thread_i.h: auto/stamp-jdb_thread.ready ; @[ -e $@ ] || { $(RM) $<; $(MAKE) $<; }
+auto/stamp-jdb_scheduler.ready: jdb_scheduler.cpp
+auto/jdb_scheduler.cc auto/jdb_scheduler.h auto/jdb_scheduler_i.h: auto/stamp-jdb_scheduler.ready ; @[ -e $@ ] || { $(RM) $<; $(MAKE) $<; }
+auto/stamp-jdb_sender_list.ready: jdb_sender_list.cpp
+auto/jdb_sender_list.cc auto/jdb_sender_list.h auto/jdb_sender_list_i.h: auto/stamp-jdb_sender_list.ready ; @[ -e $@ ] || { $(RM) $<; $(MAKE) $<; }
+auto/stamp-jdb_regex.ready: jdb_regex.cpp
+auto/jdb_regex.cc auto/jdb_regex.h auto/jdb_regex_i.h: auto/stamp-jdb_regex.ready ; @[ -e $@ ] || { $(RM) $<; $(MAKE) $<; }
+auto/stamp-jdb_disasm.ready: jdb_disasm.cpp
+auto/jdb_disasm.cc auto/jdb_disasm.h auto/jdb_disasm_i.h: auto/stamp-jdb_disasm.ready ; @[ -e $@ ] || { $(RM) $<; $(MAKE) $<; }
+IFDEPS += .jdb_ktrace.cc.d
+CXXSRC_JABI += jdb_ktrace.cc
+OBJ_JABI += $(CXXSRC_JABI:.cc=.o) $(CSRC_JABI:.c=.o) $(ASSRC_JABI:.S=.o)
+IFDEPS += .l4_fpage.cc.d .l4_msg_item.cc.d .l4_buf_desc.cc.d .kip.cc.d .kip-debug.cc.d .kip-ia32.cc.d .kip-ia32-debug.cc.d .l4_types.cc.d .l4_types-debug.cc.d .l4_error.cc.d .virt-ia32-amd64.cc.d
+CXXSRC_ABI += l4_fpage.cc l4_msg_item.cc l4_buf_desc.cc kip.cc kip-debug.cc kip-ia32.cc kip-ia32-debug.cc l4_types.cc l4_types-debug.cc l4_error.cc virt-ia32-amd64.cc
+OBJ_ABI += $(CXXSRC_ABI:.cc=.o) $(CSRC_ABI:.c=.o) $(ASSRC_ABI:.S=.o)
+IFDEPS += .mux_console.cc.d .console.cc.d .keyb.cc.d .keyb-pc.cc.d .io.cc.d .io-ia32.cc.d .pci.cc.d .vga_console.cc.d .reset-ia32.cc.d .processor.cc.d .processor-ia32.cc.d .delayloop.cc.d .mem.cc.d .mem-ia32.cc.d .filter_console.cc.d .uart.cc.d .uart-16550.cc.d
+CXXSRC_DRIVERS += mux_console.cc console.cc keyb.cc keyb-pc.cc io.cc io-ia32.cc pci.cc vga_console.cc reset-ia32.cc processor.cc processor-ia32.cc delayloop.cc mem.cc mem-ia32.cc filter_console.cc uart.cc uart-16550.cc
+OBJ_DRIVERS += $(CXXSRC_DRIVERS:.cc=.o) $(CSRC_DRIVERS:.c=.o) $(ASSRC_DRIVERS:.S=.o)
+IFDEPS += .cpu_mask.cc.d .rcupdate.cc.d .kobject_mapdb.cc.d .context_base.cc.d .mem_region.cc.d .per_cpu_data.cc.d .startup.cc.d .startup-ia32.cc.d .boot_info.cc.d .boot_info-ia32.cc.d .queue.cc.d .queue_item.cc.d .l4_buf_iter.cc.d .bitmap.cc.d .mapping-ia32-32.cc.d .mapping.cc.d .spin_lock.cc.d .spin_lock-ia32.cc.d .mapping_tree.cc.d .mappable.cc.d .dbg_page_info.cc.d .mapdb.cc.d .pic.cc.d .pic-i8259.cc.d .kobject_dbg.cc.d .koptions.cc.d .kobject_iface.cc.d .kobject.cc.d .ready_queue_wfq.cc.d .obj_space_types.cc.d .obj_space_phys_util.cc.d .ready_queue_fp.cc.d .obj_space.cc.d .obj_space-virt.cc.d .ptab_base.cc.d .ram_quota.cc.d .ref_ptr.cc.d .ref_obj.cc.d .mem_space.cc.d .mem_space-user.cc.d .mem_space-ia32.cc.d .space.cc.d .space-ia32.cc.d .space-io.cc.d .vlog.cc.d .kmem-ia32.cc.d .kmem-ia32-32.cc.d .kmem_alloc.cc.d .kmem_alloc-ia32.cc.d .slab_cache.cc.d .mem_layout.cc.d .mem_layout-ia32.cc.d .mem_layout-ia32-32.cc.d .kmem_slab.cc.d .switch_lock.cc.d .kip_init-ia32.cc.d .thread_lock.cc.d .helping_lock.cc.d .cpu_lock.cc.d .cpu_lock-generic.cc.d .timer.cc.d .timer-ia32-amd64-ux.cc.d .timer-apic.cc.d .timeout.cc.d .ipc_timeout.cc.d .timeslice_timeout.cc.d .per_cpu_data_alloc.cc.d .vcpu.cc.d .kobject_helper.cc.d .icu_helper.cc.d .thread_state.cc.d .context.cc.d .context-ia32.cc.d .context-ia32-32.cc.d .context-vcpu.cc.d .mp_lock.cc.d .sender.cc.d .receiver.cc.d .mem_unit-ia32.cc.d .factory.cc.d .lock.cc.d .ipc_sender.cc.d .thread.cc.d .thread-ia32.cc.d .thread-ia32-32.cc.d .thread-ipc.cc.d .thread-pagefault.cc.d .thread-log.cc.d .thread-debug.cc.d .thread-dbf.cc.d .thread-vcpu.cc.d .thread-io.cc.d .thread_object.cc.d .syscalls.cc.d .syscalls-log.cc.d .kernel_thread.cc.d .kernel_thread-std.cc.d .kernel_thread-ia32.cc.d .map_util.cc.d .map_util-mem.cc.d .map_util-io.cc.d .map_util-objs.cc.d .irq.cc.d .banner.cc.d .warn.cc.d .app_cpu_thread.cc.d .globals.cc.d .watchdog.cc.d .watchdog-ia32.cc.d .kernel_uart.cc.d .kernel_uart-16550.cc.d .main-ia32-32.cc.d .main-ia32.cc.d .config.cc.d .config-ia32-32.cc.d .config-ia32.cc.d .vmem_alloc.cc.d .vmem_alloc-ia32.cc.d .paging-ia32-32.cc.d .paging-ia32.cc.d .paging.cc.d .fpu.cc.d .fpu-ia32-ux.cc.d .fpu-ia32.cc.d .fpu_state.cc.d .fpu_alloc.cc.d .cpu.cc.d .cpu-ia32.cc.d .cpu-32.cc.d .entry_frame.cc.d .entry_frame-ia32-ux.cc.d .entry_frame-abs-timeout-hack.cc.d .kernel_console.cc.d .ipc_gate.cc.d .task.cc.d .task-ia32-amd64.cc.d .sigma0_task.cc.d .sigma0_task-io.cc.d .kernel_task.cc.d .platform_control_object.cc.d .irq_controller.cc.d .irq_chip.cc.d .irq_mgr.cc.d .terminate.cc.d .continuation-ia32-32.cc.d .timer_tick.cc.d .timer_tick-apic.cc.d .platform_control.cc.d .sched_context-wfq.cc.d .sched_context-fixed_prio.cc.d .sched_context-fp_wfq.cc.d .sched_context.cc.d .utcb_init.cc.d .utcb_init-ia32.cc.d .perf_cnt.cc.d .perf_cnt-ia32.cc.d .trap_state.cc.d .buddy_alloc.cc.d .vkey.cc.d .kdb_ke.cc.d .kdb_ke-ia32.cc.d .prio_list.cc.d .ipi.cc.d .ipi-ia32.cc.d .scheduler.cc.d .clock.cc.d .clock-ia32.cc.d .vm_factory.cc.d .vm_factory-ia32.cc.d .sys_call_page.cc.d .sys_call_page-abs-ia32.cc.d .boot_alloc.cc.d .__main.cc.d .acpi.cc.d .irq_chip_ia32.cc.d .irq_chip_pic.cc.d .io_apic.cc.d .irq_msi.cc.d .boot_console-ia32-amd64.cc.d .io_space.cc.d .apic-ia32.cc.d .apic-ia32-mp.cc.d .apic-debug.cc.d .pit-i8254.cc.d .checksum.cc.d .x86desc.cc.d .gdt.cc.d .idt.cc.d .tss.cc.d .timer_irq.cc.d .dirq-ia32-ux.cc.d .jdb_tbuf.cc.d .jdb_tbuf_init.cc.d .jdb_trace.cc.d .tb_entry.cc.d .tb_entry-ia32-32.cc.d .jdb_gzip.cc.d .obj_space_virt_util.cc.d .uart_console.cc.d
+CXXSRC_KERNEL += cpu_mask.cc rcupdate.cc kobject_mapdb.cc context_base.cc mem_region.cc per_cpu_data.cc startup.cc startup-ia32.cc boot_info.cc boot_info-ia32.cc queue.cc queue_item.cc l4_buf_iter.cc bitmap.cc mapping-ia32-32.cc mapping.cc spin_lock.cc spin_lock-ia32.cc mapping_tree.cc mappable.cc dbg_page_info.cc mapdb.cc pic.cc pic-i8259.cc kobject_dbg.cc koptions.cc kobject_iface.cc kobject.cc ready_queue_wfq.cc obj_space_types.cc obj_space_phys_util.cc ready_queue_fp.cc obj_space.cc obj_space-virt.cc ptab_base.cc ram_quota.cc ref_ptr.cc ref_obj.cc mem_space.cc mem_space-user.cc mem_space-ia32.cc space.cc space-ia32.cc space-io.cc vlog.cc kmem-ia32.cc kmem-ia32-32.cc kmem_alloc.cc kmem_alloc-ia32.cc slab_cache.cc mem_layout.cc mem_layout-ia32.cc mem_layout-ia32-32.cc kmem_slab.cc switch_lock.cc kip_init-ia32.cc thread_lock.cc helping_lock.cc cpu_lock.cc cpu_lock-generic.cc timer.cc timer-ia32-amd64-ux.cc timer-apic.cc timeout.cc ipc_timeout.cc timeslice_timeout.cc per_cpu_data_alloc.cc vcpu.cc kobject_helper.cc icu_helper.cc thread_state.cc context.cc context-ia32.cc context-ia32-32.cc context-vcpu.cc mp_lock.cc sender.cc receiver.cc mem_unit-ia32.cc factory.cc lock.cc ipc_sender.cc thread.cc thread-ia32.cc thread-ia32-32.cc thread-ipc.cc thread-pagefault.cc thread-log.cc thread-debug.cc thread-dbf.cc thread-vcpu.cc thread-io.cc thread_object.cc syscalls.cc syscalls-log.cc kernel_thread.cc kernel_thread-std.cc kernel_thread-ia32.cc map_util.cc map_util-mem.cc map_util-io.cc map_util-objs.cc irq.cc banner.cc warn.cc app_cpu_thread.cc globals.cc watchdog.cc watchdog-ia32.cc kernel_uart.cc kernel_uart-16550.cc main-ia32-32.cc main-ia32.cc config.cc config-ia32-32.cc config-ia32.cc vmem_alloc.cc vmem_alloc-ia32.cc paging-ia32-32.cc paging-ia32.cc paging.cc fpu.cc fpu-ia32-ux.cc fpu-ia32.cc fpu_state.cc fpu_alloc.cc cpu.cc cpu-ia32.cc cpu-32.cc entry_frame.cc entry_frame-ia32-ux.cc entry_frame-abs-timeout-hack.cc kernel_console.cc ipc_gate.cc task.cc task-ia32-amd64.cc sigma0_task.cc sigma0_task-io.cc kernel_task.cc platform_control_object.cc irq_controller.cc irq_chip.cc irq_mgr.cc terminate.cc continuation-ia32-32.cc timer_tick.cc timer_tick-apic.cc platform_control.cc sched_context-wfq.cc sched_context-fixed_prio.cc sched_context-fp_wfq.cc sched_context.cc utcb_init.cc utcb_init-ia32.cc perf_cnt.cc perf_cnt-ia32.cc trap_state.cc buddy_alloc.cc vkey.cc kdb_ke.cc kdb_ke-ia32.cc prio_list.cc ipi.cc ipi-ia32.cc scheduler.cc clock.cc clock-ia32.cc vm_factory.cc vm_factory-ia32.cc sys_call_page.cc sys_call_page-abs-ia32.cc boot_alloc.cc __main.cc acpi.cc irq_chip_ia32.cc irq_chip_pic.cc io_apic.cc irq_msi.cc boot_console-ia32-amd64.cc io_space.cc apic-ia32.cc apic-ia32-mp.cc apic-debug.cc pit-i8254.cc checksum.cc x86desc.cc gdt.cc idt.cc tss.cc timer_irq.cc dirq-ia32-ux.cc jdb_tbuf.cc jdb_tbuf_init.cc jdb_trace.cc tb_entry.cc tb_entry-ia32-32.cc jdb_gzip.cc obj_space_virt_util.cc uart_console.cc
+OBJ_KERNEL += $(CXXSRC_KERNEL:.cc=.o) $(CSRC_KERNEL:.c=.o) $(ASSRC_KERNEL:.S=.o)
+IFDEPS += 
+CXXSRC_CRT0 += 
+OBJ_CRT0 += $(CXXSRC_CRT0:.cc=.o) $(CSRC_CRT0:.c=.o) $(ASSRC_CRT0:.S=.o)
+IFDEPS += 
+CXXSRC_BOOT += 
+OBJ_BOOT += $(CXXSRC_BOOT:.cc=.o) $(CSRC_BOOT:.c=.o) $(ASSRC_BOOT:.S=.o)
+IFDEPS += .atomic.cc.d .lock_guard.cc.d .auto_ptr.cc.d .std_macros.cc.d
+CXXSRC_LIBK += atomic.cc lock_guard.cc auto_ptr.cc std_macros.cc
+OBJ_LIBK += $(CXXSRC_LIBK:.cc=.o) $(CSRC_LIBK:.c=.o) $(ASSRC_LIBK:.S=.o)
+IFDEPS += 
+CXXSRC_CHECKSUM += 
+OBJ_CHECKSUM += $(CXXSRC_CHECKSUM:.cc=.o) $(CSRC_CHECKSUM:.c=.o) $(ASSRC_CHECKSUM:.S=.o)
+IFDEPS += .paranoia.cc.d .s_cruft.cc.d
+CXXSRC_CXXLIB += paranoia.cc s_cruft.cc
+OBJ_CXXLIB += $(CXXSRC_CXXLIB:.cc=.o) $(CSRC_CXXLIB:.c=.o) $(ASSRC_CXXLIB:.S=.o)
+IFDEPS += 
+CXXSRC_MINILIBC += 
+OBJ_MINILIBC += $(CXXSRC_MINILIBC:.cc=.o) $(CSRC_MINILIBC:.c=.o) $(ASSRC_MINILIBC:.S=.o)
+IFDEPS += 
+CXXSRC_LIBKERN += 
+OBJ_LIBKERN += $(CXXSRC_LIBKERN:.cc=.o) $(CSRC_LIBKERN:.c=.o) $(ASSRC_LIBKERN:.S=.o)
+IFDEPS += 
+CXXSRC_TCBOFFSET += 
+OBJ_TCBOFFSET += $(CXXSRC_TCBOFFSET:.cc=.o) $(CSRC_TCBOFFSET:.c=.o) $(ASSRC_TCBOFFSET:.S=.o)
+IFDEPS += 
+CXXSRC_VERSION += 
+OBJ_VERSION += $(CXXSRC_VERSION:.cc=.o) $(CSRC_VERSION:.c=.o) $(ASSRC_VERSION:.S=.o)
+IFDEPS += 
+CXXSRC_GBLCFG += 
+OBJ_GBLCFG += $(CXXSRC_GBLCFG:.cc=.o) $(CSRC_GBLCFG:.c=.o) $(ASSRC_GBLCFG:.S=.o)
+IFDEPS += .jdb.cc.d .jdb-ia32-amd64.cc.d .jdb-ansi.cc.d .jdb-ia32-ux.cc.d .jdb-thread.cc.d .jdb-int3-ia32-amd64.cc.d .jdb-int3-ia32-ux.cc.d .jdb_util.cc.d .jdb_prompt_ext.cc.d .jdb_symbol.cc.d .jdb_lines.cc.d .jdb_dbinfo.cc.d .jdb_bp-ia32-ux.cc.d .jdb_bp-ia32-amd64.cc.d .jdb_bp-ia32.cc.d .jdb_module.cc.d .jdb_core.cc.d .jdb_io_ports.cc.d .jdb_kern_info.cc.d .jdb_kern_info-ia32-amd64.cc.d .jdb_kern_info-ia32-ux.cc.d .jdb_kern_info-apic.cc.d .jdb_kern_info-pci.cc.d .jdb_kern_info-bench.cc.d .jdb_kern_info-bench-ia32-32.cc.d .jdb_kern_info-dr.cc.d .jdb_kern_info-mtrr.cc.d .jdb_prompt_module.cc.d .jdb_tbuf_output.cc.d .jdb_input.cc.d .jdb_dump.cc.d .jdb_ptab.cc.d .jdb_ptab-ia32-ux-arm.cc.d .jdb_misc-ia32-amd64.cc.d .jdb_mapdb.cc.d .jdb_tcb.cc.d .jdb_tcb-ia32-ux.cc.d .jdb_attach_irq.cc.d .jdb_trace_set.cc.d .jdb_trace_set-ia32-ux.cc.d .jdb_counters.cc.d .jdb_table.cc.d .kern_cnt.cc.d .jdb_exit_module.cc.d .jdb_tbuf_show.cc.d .jdb_console_buffer.cc.d .jdb_list.cc.d .jdb_screen.cc.d .jdb_screen-ia32.cc.d .push_console.cc.d .jdb_timeout.cc.d .jdb_handler_queue.cc.d .jdb_halt_thread.cc.d .jdb_kern_info_kmem_alloc.cc.d .jdb_kern_info_kip.cc.d .jdb_kern_info_config.cc.d .loadcnt.cc.d .jdb_utcb.cc.d .jdb_thread_list.cc.d .jdb_entry_frame-ia32.cc.d .jdb_kobject.cc.d .jdb_space.cc.d .jdb_io_apic.cc.d .jdb_trap_state.cc.d .jdb_ipi.cc.d .jdb_kobject_names.cc.d .jdb_rcupdate.cc.d .jdb_bt-ia32-ux.cc.d .jdb_ipc_gate.cc.d .jdb_obj_space.cc.d .jdb_log.cc.d .jdb_factory.cc.d .jdb_iomap.cc.d .jdb_thread.cc.d .jdb_scheduler.cc.d .jdb_sender_list.cc.d .jdb_regex.cc.d .jdb_disasm.cc.d
+CXXSRC_JDB += jdb.cc jdb-ia32-amd64.cc jdb-ansi.cc jdb-ia32-ux.cc jdb-thread.cc jdb-int3-ia32-amd64.cc jdb-int3-ia32-ux.cc jdb_util.cc jdb_prompt_ext.cc jdb_symbol.cc jdb_lines.cc jdb_dbinfo.cc jdb_bp-ia32-ux.cc jdb_bp-ia32-amd64.cc jdb_bp-ia32.cc jdb_module.cc jdb_core.cc jdb_io_ports.cc jdb_kern_info.cc jdb_kern_info-ia32-amd64.cc jdb_kern_info-ia32-ux.cc jdb_kern_info-apic.cc jdb_kern_info-pci.cc jdb_kern_info-bench.cc jdb_kern_info-bench-ia32-32.cc jdb_kern_info-dr.cc jdb_kern_info-mtrr.cc jdb_prompt_module.cc jdb_tbuf_output.cc jdb_input.cc jdb_dump.cc jdb_ptab.cc jdb_ptab-ia32-ux-arm.cc jdb_misc-ia32-amd64.cc jdb_mapdb.cc jdb_tcb.cc jdb_tcb-ia32-ux.cc jdb_attach_irq.cc jdb_trace_set.cc jdb_trace_set-ia32-ux.cc jdb_counters.cc jdb_table.cc kern_cnt.cc jdb_exit_module.cc jdb_tbuf_show.cc jdb_console_buffer.cc jdb_list.cc jdb_screen.cc jdb_screen-ia32.cc push_console.cc jdb_timeout.cc jdb_handler_queue.cc jdb_halt_thread.cc jdb_kern_info_kmem_alloc.cc jdb_kern_info_kip.cc jdb_kern_info_config.cc loadcnt.cc jdb_utcb.cc jdb_thread_list.cc jdb_entry_frame-ia32.cc jdb_kobject.cc jdb_space.cc jdb_io_apic.cc jdb_trap_state.cc jdb_ipi.cc jdb_kobject_names.cc jdb_rcupdate.cc jdb_bt-ia32-ux.cc jdb_ipc_gate.cc jdb_obj_space.cc jdb_log.cc jdb_factory.cc jdb_iomap.cc jdb_thread.cc jdb_scheduler.cc jdb_sender_list.cc jdb_regex.cc jdb_disasm.cc
+OBJ_JDB += $(CXXSRC_JDB:.cc=.o) $(CSRC_JDB:.c=.o) $(ASSRC_JDB:.S=.o)
+IFDEPS += 
+CXXSRC_LIBDISASM += 
+OBJ_LIBDISASM += $(CXXSRC_LIBDISASM:.cc=.o) $(CSRC_LIBDISASM:.c=.o) $(ASSRC_LIBDISASM:.S=.o)
+IFDEPS += 
+CXXSRC_LIBGZIP += 
+OBJ_LIBGZIP += $(CXXSRC_LIBGZIP:.cc=.o) $(CSRC_LIBGZIP:.c=.o) $(ASSRC_LIBGZIP:.S=.o)
+IFDEPS += 
+CXXSRC_LIBPERFCTR += 
+OBJ_LIBPERFCTR += $(CXXSRC_LIBPERFCTR:.cc=.o) $(CSRC_LIBPERFCTR:.c=.o) $(ASSRC_LIBPERFCTR:.S=.o)
+IFDEPS += 
+CXXSRC_LIBREGEX += 
+OBJ_LIBREGEX += $(CXXSRC_LIBREGEX:.cc=.o) $(CSRC_LIBREGEX:.c=.o) $(ASSRC_LIBREGEX:.S=.o)
+GENERATED_MODULES =  jdb_ktrace  l4_fpage l4_msg_item l4_buf_desc kip l4_types l4_error virt  mux_console console keyb io pci vga_console reset processor delayloop mem filter_console uart  cpu_mask rcupdate kobject_mapdb context_base mem_region per_cpu_data startup boot_info queue queue_item l4_buf_iter bitmap mapping spin_lock mapping_tree mappable dbg_page_info mapdb pic kobject_dbg koptions kobject_iface kobject ready_queue_wfq obj_space_types obj_space_phys_util ready_queue_fp obj_space ptab_base ram_quota ref_ptr ref_obj mem_space space vlog kmem kmem_alloc slab_cache mem_layout kmem_slab switch_lock kip_init thread_lock helping_lock cpu_lock timer timeout ipc_timeout timeslice_timeout per_cpu_data_alloc vcpu kobject_helper icu_helper thread_state context mp_lock sender receiver mem_unit factory lock ipc_sender thread thread_object syscalls kernel_thread map_util irq banner warn app_cpu_thread globals watchdog kernel_uart main config vmem_alloc paging fpu fpu_state fpu_alloc cpu entry_frame kernel_console ipc_gate task sigma0_task kernel_task platform_control_object irq_controller irq_chip irq_mgr terminate continuation timer_tick platform_control sched_context utcb_init perf_cnt trap_state buddy_alloc vkey kdb_ke prio_list ipi scheduler clock vm_factory sys_call_page boot_alloc __main acpi irq_chip_ia32 irq_chip_pic io_apic irq_msi boot_console io_space apic pit checksum x86desc gdt idt tss timer_irq dirq jdb_tbuf jdb_tbuf_init jdb_trace tb_entry  jdb_gzip obj_space_virt_util uart_console      atomic lock_guard auto_ptr std_macros    paranoia s_cruft            jdb jdb_util jdb_prompt_ext jdb_symbol jdb_lines jdb_dbinfo jdb_bp jdb_module jdb_core jdb_io_ports jdb_kern_info jdb_prompt_module jdb_tbuf_output jdb_input jdb_dump jdb_ptab jdb_misc jdb_mapdb jdb_tcb jdb_attach_irq jdb_trace_set jdb_counters jdb_table kern_cnt jdb_exit_module jdb_tbuf_show jdb_console_buffer jdb_list jdb_screen push_console jdb_timeout jdb_handler_queue jdb_halt_thread jdb_kern_info_kmem_alloc jdb_kern_info_kip jdb_kern_info_config loadcnt jdb_utcb jdb_thread_list jdb_entry_frame jdb_kobject jdb_space jdb_io_apic jdb_trap_state jdb_ipi jdb_kobject_names jdb_rcupdate jdb_bt jdb_ipc_gate jdb_obj_space jdb_log jdb_factory jdb_iomap jdb_thread jdb_scheduler jdb_sender_list jdb_regex jdb_disasm         
+ALL =  libjabi.a   libabi.a   libdrivers.a libgluedriverslibc.a   fiasco.image   crt0.o   fiasco   libk.a   checksum   libcxx.a   libc.a   libkern.a   tcboffset.h   version.h   gblcfg.o   jdb_compound.o   libdisasm.a   libgzip.a   libperfctr.a   libregex.a 
+_modules_deps_read_ = true
